@@ -1,11 +1,10 @@
 package com.company;
 
-import org.jetbrains.annotations.NotNull;
+
 
 public class htmlTag extends Main {
 
-    public static @NotNull
-    String getInput(){
+    public static String getInput(){
       String inputHtmlTag= open("textarea") +" write Feedback here"+close("textarea");
       return inputHtmlTag;
     }
